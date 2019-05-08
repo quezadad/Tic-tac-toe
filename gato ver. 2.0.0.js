@@ -76,7 +76,7 @@ function comenzar() {
             alert("jugador: " + playerName + " Gano!")
         }
         // Diagonales
-        if (seccion[0].innerHTML === turn && seccion[5].innerHTML === turn && seccion[8].innerHTML === turn) {
+        if (seccion[0].innerHTML === turn && seccion[4].innerHTML === turn && seccion[8].innerHTML === turn) {
             alert("jugador: " + playerName + " Gano!")
         }
         if (seccion[2].innerHTML === turn && seccion[4].innerHTML === turn && seccion[6].innerHTML === turn) {
