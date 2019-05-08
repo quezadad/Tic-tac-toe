@@ -1,0 +1,60 @@
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+  }
+  h1 {
+    text-align: center;
+    font-size: 25px;
+    color:rgb(66, 16, 107);
+  }
+  #mensaje {
+	  display: block;
+  	border: 3px solid rgb(82, 39, 107); 
+	  width: 306px;
+    height: 50px;
+    margin: 0 auto 5px;    
+    font-size: 35px;
+    font-weight: bold;
+	  text-align: center;
+	  line-height: 50px;
+    color:rgb(60, 12, 92);
+  }
+  #juego {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 306px;
+    margin: 0 auto 5px;
+    border: 2px solid rgb(82, 39, 107);         
+  }
+.cuadro {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border: 1px solid rgb(82, 39, 107);
+    color: rgb(171, 92, 187);
+    cursor: pointer;
+    text-align: center;    
+    font-size: 60px;
+    font-weight: bold;
+    transition: all linear 0.3s;
+  }
+  .cuadro:hover {
+    background-color: rgb(139, 70, 179);
+  }
+  .boton {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid rgb(171, 120, 212);
+    border-radius: 4px;
+    background-color: #fff;
+    color: rgb(171, 120, 212);
+    font-size: 18px;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all linear 0.3s;
+  }
+  #reinicio:hover {
+    background-color: rgba(117, 28, 226, 0.25);
+  }
